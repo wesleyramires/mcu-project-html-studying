@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>MCU - Marvel Cinematic Universe </title>
-        <link href="estilos.css" rel="stylesheet">
+        <link href="../Public/style_home.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu&display=swap" rel="stylesheet">
         
         <style>
@@ -11,29 +11,104 @@
     
     
     <body>
-        <main>        
-            <header>
-                <img src="header-blue.jpg" width="1260", height="400px">
-            </header>
-
-            <nav>
+                
+        <header>
+            <img src="../Public/Image/Marvel_Cinematic_Universe.png" class="img_logo" height="99%">
+            
+            
+            <a href="http://www.facebook.com/weesleyramires" target=”_blank”>
+                <img src="Image/facebook.png" class="img_facebook" width="40px" height="40px" >
+            </a> 
+            
+            <a href="https://www.instagram.com/wesleyramires_" target=”_blank”> 
+                <img src="Image/instagram.png" class="img_instagram" width="40px" height="40px" >
+            </a>
+            
+            
+            <nav id="nav_menu1">
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="sobremcu.html">SOBRE A MCU</a></li>
-                    <li><a href="filmes.html">FILMES LANÇADOS</a></li>
-                    <li><a href="personagens.html">PERSONAGENS</a></li>
-                    <li><a href="timeline.html">LINHA DO TEMPO</a></li>
-                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="../Public/home.html">HOME</a></li>
+                    <li><a href="../About_me/aboutme.html">ABOUT MARVEL</a></li>
+                    <li><a href="../Project/project.html">PROJECT</a></li>
                 </ul>
             </nav>
             
-            <article>
-                <hgroup>
-                    <h1>Página Incial</h1>
-                </hgroup>
-            </article>
+                <input type="checkbox" class="input_menu" id="check">
+                <label for="check" id="label_menu">
+                    <img src="Image/menu.png" id="img_menu">
+                </label>
+        
+                <nav id="nav_menu">
+                    <ul id="ul_menu">
+                        <li class="li_menu"><a href="../Characters/characters.html" class="a_menu">PERSONAGENS</a></li>
+                        <li class="li_menu"><a href="../Movies/movies.html" class="a_menu">FILMES</a></li>
+                        <li class="li_menu"><a href="../Time_line/timeline.html" class="a_menu">LINHA DO TEMPO</a></li>
+                    </ul>
+                </nav>
+            
+        </header>
+        
+        <main>
 
+            <section class="column_main">
+                <section class="slideshow">
+                    <img class="images" src="Image/Slideshow/Marvel_Logo.jpg" width="100%">
+                    <img class="images" src="Image/Slideshow/Marvel_Studios.jpg" width="100%">
+                    <img class="images" src="Image/Slideshow/Marvel_Cl%C3%A1ssico.jpg" width="100%">
+                </section>
+            </section>
+            
+            <section class="column_right">
+                <div class="fotos">
+                    <a href="../Characters/characters.html">
+                        <img src="Image/personagens.jpg" width="99.9%">
+                    </a>
+                </div>
+                
+                <div class="fotos" >
+                    <a href="../Movies/movies.html">
+                        <img src="Image/filmes.jpg" width="99.9%">
+                    </a>
+                </div>   
+                
+                <div class="fotos" >
+                    <a href="../Time_line/timeline.html">
+                        <img src="Image/linhatempo.jpg" width="99.9%">
+                    </a>
+                </div>
+               
+            </section>
+                
+            <section class="column_left">
+                <h2>FASE 4</h2>
+                <div id="fase4">
+                <img class="fase4" src="../Public/Image/Fase_4/fase4.jpg" width="100%">
+                </div>
+            </section>
+            
+            <section class="column_bottom">
+                <h2>SOBRE O DESENVOLVEDOR</h2>
+                <img id="img_autor" src="Image/DSCF6192-Edit.jpg">
+                <h3 style="margin: 5px 0px">Wesley Ramires</h3>
+                <div id="p_autor">Tenho 22 anos de idade e sou casado com a Vitória Ramires. Nascido em Curitiba, com apenas 1 ano de idade meus pais se mudaram para Maringá. Sou o cassula da família e tenho um irmã de 28 anos que hoje é professora na rede municipal de ensino. Após algumas tentativas fracassadas sobre o meu futuro profissional, entrei no curso de Analise e Desenvolvimento de Sistemas pela UniFCV em Maringá. Atualmente estou no segundo ano da faculdade e tenho desenvolvido este projeto para o aprimoramento do desenvolvimento web. Nesse projeto utilizarei HTML, CSS, JavaScript, JQuery, BootStrap, PHP e entre outros meios.</div>
+            </section>
+            
         </main>
+        
+        <footer>
+            
+            <ul id="menu_footer">
+                <li class="li_footer"><a href="../Public/home.html">HOME</a></li>
+                •
+                <li class="li_footer"><a href="../About_me/aboutme.html">ABOUT MARVEL</a></li>
+                •
+                <li class="li_footer"><a href="../Project/project.html">PROJECT</a></li>
+            </ul>
+            
+            <div id="p_footer">
+                &copy; 2019 - WESLEY RAMIRES
+            </div>
+        </footer>
         
     </body>
     

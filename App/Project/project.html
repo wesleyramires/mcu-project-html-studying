@@ -2,39 +2,73 @@
     <head>
         <meta charset="utf-8">
         <title>MCU - Marvel Cinematic Universe </title>
-        <link href="estilos.css" rel="stylesheet">
+        <link href="../Project/style_project.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu&display=swap" rel="stylesheet">
         
-        <style>
-        </style>        
+     
     </head>
     
     
     <body>
-        <main>        
-            <header>
-                <img src="header-blue.jpg" width="1260", height="400px">
-            </header>
-
-            <nav>
+              
+        <header>
+            <img src="../Public/Image/Marvel_Cinematic_Universe.png" class="img_logo" height="200px">
+            
+            
+            <a href="http://www.facebook.com/weesleyramires" target=”_blank”>
+                <img src="../Public/Image/facebook.png" class="img_facebook" width="40px" height="40px" >
+            </a> 
+            
+            <a href="https://www.instagram.com/wesleyramires_" target=”_blank”> 
+                <img src="../Public/Image/instagram.png" class="img_instagram" width="40px" height="40px" >
+            </a>
+            
+            
+            <nav id="nav_menu1">
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="sobremcu.html">SOBRE A MCU</a></li>
-                    <li><a href="filmes.html">FILMES LANÇADOS</a></li>
-                    <li><a href="personagens.html">PERSONAGENS</a></li>
-                    <li><a href="timeline.html">LINHA DO TEMPO</a></li>
-                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="../Public/home.html">HOME</a></li>
+                    <li><a href="../About_me/aboutme.html">ABOUT MARVEL</a></li>
+                    <li><a href="../Project/project.html">PROJECT</a></li>
                 </ul>
             </nav>
             
+                <input type="checkbox" class="input_menu" id="check">
+                <label for="check" id="label_menu">
+                    <img src="../Public/Image/menu.png" id="img_menu">
+                </label>
+        
+                <nav id="nav_menu">
+                    <ul id="ul_menu">
+                        <li class="li_menu"><a href="../Characters/characters.html" class="a_menu">PERSONAGENS</a></li>
+                        <li class="li_menu"><a href="../Movies/movies.html" class="a_menu">FILMES</a></li>
+                        <li class="li_menu"><a href="../Time_line/timeline.html" class="a_menu">LINHA DO TEMPO</a></li>
+                    </ul>
+                </nav>     
+        </header>
+        
+        <main>
             <article>
-                <hgroup>
-                    <h1>Linha do Tempo</h1>
-                </hgroup>
+                
+                <img src="Image/project_html_css.jpg" width="50%" class="img_html_css">
+                
+                <p>O começo de um projeto traz consigo grandes desafios. Esse projeto foi criado, afim de explorar novos campos de desenvolvimento para web. Tenho como objetivo o desenvolver um site com conteúdos cinematográficos da Marvel, ao qual, é um dos universos das HQ preferidos. Nesse primeiro processo, estou desenvolvendo o site, utilizando somente HTML 5  e CSS 3 para abranger os conhecimentos da linguagem. Na segunda etapa, começarei a incluir no desenvolvimento do site o javascript e posteriormente, usarei frameworks como bootstrap. Todo o projeto visa o estudo desse meio do mundo developer.</p>
             </article>
-
         </main>
         
+        <footer>
+            
+            <ul id="menu_footer">
+                <li class="li_footer"><a href="../Public/home.html">HOME</a></li>
+                •
+                <li class="li_footer"><a href="../About_me/aboutme.html">ABOUT MARVEL</a></li>
+                •
+                <li class="li_footer"><a href="../Project/project.html">PROJECT</a></li>
+            </ul>
+            
+            <div id="p_footer">
+                &copy; 2019 - WESLEY RAMIRES
+            </div>
+        </footer>
     </body>
     
 </html>

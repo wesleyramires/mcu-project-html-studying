@@ -1,0 +1,234 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #edecec;
+}
+
+header {
+    background: linear-gradient(to bottom, #080908, #202020);
+    width: 100%;
+    min-width: 1000px;
+    height: 200px;
+    border-bottom: 3px solid #b00114;
+}
+
+body {
+    background-color: black;
+    background-image: url(../Movies/Images/wallpapers.jpg);
+    background-size: 1550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    width: 85%;
+    min-width: 1000px;
+    padding: 1%;
+    overflow: hidden;
+}
+
+article{
+    clear: both;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    text-align: justify
+}
+
+.img_logo {
+    padding: 0px 0px 0px 15%;  
+}
+
+.img_facebook {
+    float: right;
+    margin: 80px 150px 0 0;
+}
+
+.img_instagram {
+    float: right;
+    margin: 80px 50px 0 0;
+}
+
+#nav_menu1 {
+    float: right;
+    margin: 36px 50px 0 0;
+    border-right: 3px solid #b00114;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    text-align: right;   
+}
+
+nav ul {
+    width: 100%; 
+    margin: 1px 1px;
+    padding-right: 3%;   
+}
+
+nav ul li{
+    list-style-type:none;
+    display: block;
+    margin: 8% 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+
+nav ul li a:hover{
+    background-color: #b00114;
+}  
+
+
+#img_menu {
+    margin-top: 60px;
+    margin-left: -400px;
+    width: 50px;
+}
+
+.input_menu[type="checkbox"]{
+    display: none;
+}
+
+#nav_menu {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(16,16,16,.7);
+    width: 325px;
+    height: 50%;
+    margin-top: 3px;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+.input_menu[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+#ul_menu{
+    list-style: none;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.a_menu {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+.a_menu:hover{
+    background-color: rgb(204,204,204);
+    color: black;
+}
+
+#label_menu{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.scroll {
+    height: 675px;
+    overflow: auto;
+}
+
+
+.h2_right{
+    clear: right;
+    background-color: #363b48;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 0px 10px 290px;
+}
+
+.h2_left{
+    clear:left; 
+    background-color: #363b48;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 290px 10px 0px;
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+.img_left{
+    clear: both;
+    width: 267px;
+    height: 410px;;
+    float: left;
+    border: 2px solid #999;
+    padding: 5px;
+    margin: 0px 15px 5px 0px;
+}
+
+.img_right{
+    clear: both;
+    width: 267px;
+    height: 410px;
+    float: right;
+    border: 2px solid #999;
+    padding: 5px;
+    margin: 0px 0px 5px 15px;;
+}
+
+footer {
+    background: linear-gradient(to top, #080908, #202020);
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    border-top: 3px solid #b00114;    
+}
+
+#p_footer {
+    font-family: 'Oswald', sans-serif;
+    margin: 35px 150px;
+    float: right;
+    color: grey;
+    font-size: 20px;
+    text-align: right;
+}
+
+#menu_footer {
+    float: left;
+    margin: 35px 0 0 135px;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+
+.li_footer {
+    display: inline-block;
+    padding: 0px 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul li a:hover {
+    color: white;
+    
+}
