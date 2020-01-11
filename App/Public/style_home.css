@@ -60,7 +60,6 @@ main {
 .column_bottom {
     background-color: #edecec;
     width: 97.69%;
-    height: 260px;
     padding: 1%;
     clear: both;
 }
@@ -183,7 +182,8 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    text-align: right;
+    font-size: 25px;
 }
 
 .slideshow {
@@ -230,7 +230,7 @@ h3 {
 }
 
 #img_autor {
-    width: 300px;
+    width: 24%;
     margin: 10px 10px 10px 0;
     float: left;
 }
@@ -238,6 +238,7 @@ h3 {
 #p_autor {
     font-size: 20px;
     text-align: justify;
+    margin: 10 0px 3px 10px;
 }
 
 .fotos {
